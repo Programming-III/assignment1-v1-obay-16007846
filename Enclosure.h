@@ -3,8 +3,20 @@
 
 #include "Animal.h"
 
-//define enclosure class here 
-
+class Enclosure{
+private:
+    Animal* = new Animal[Animal.size];
+    int capacity;
+    int currentCount;
+public:
+    Enclosure();
+    Enclosure(Animal*, int capacity, int currrentCount){
+    }
+    void addAnimal(Animal* a){
+    }
+    void displayAnimals();
+};
+virtual ~Enclosure();
 
 
 
