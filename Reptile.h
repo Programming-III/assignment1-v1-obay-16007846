@@ -3,8 +3,19 @@
 
 #include "Animal.h"
 
-//define reptile class here
+class Reptile: public Animal{
+private:
 
+int Animal::age;
+string Animal::name;
+bool Animal::isHungry;
+bool isVenemous;
+
+
+public:
+
+};
+virtual ~Reptile();
 
 
 
