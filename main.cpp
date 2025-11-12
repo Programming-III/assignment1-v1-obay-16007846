@@ -10,7 +10,10 @@ using namespace std;
 
 // ============== MAIN FUNCTION ==============
 int main() {
-    
+    Animal::Animal(){
+        name="";
+        age=0;
+        isHungry=false;
     
     return 0;
 }
