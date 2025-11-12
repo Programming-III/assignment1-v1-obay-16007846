@@ -3,9 +3,18 @@
 
 #include "Animal.h"
 
-//define mammal class here
+class Mammal:public Animal{
+private:
 
+int Animal::age;
+string Animal::name;
+bool Animal::isHungry;
+string furColor;
 
+public:
+
+};
+virtual ~Mammal();
 
 
 
