@@ -3,9 +3,26 @@
 
 #include <string>
 using namespace std;
+class Animal{
+private:
+    string name;
+    int age;
+    bool isHungry;
 
-//define animal class here 
+public:
+    Animal();
+    Animal(string name, int age, bool isHungry){
 
+    }
+    void display(){
+
+    }
+    void feed(){
+    }
+
+
+};
+virtual ~Animal();
 
 
 #endif
